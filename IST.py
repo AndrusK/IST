@@ -9,7 +9,7 @@ layout = [
     [sg.Button(button_text="Start Speed Test", key="-start_test-")],
     [sg.Text(text="Status:"), sg.Text(text="Idle", key="-status-")]
 ]
-window = sg.Window('Internet Speed Test', layout, resizable=False, disable_minimize=True)#, size=(185, 120))
+window = sg.Window('Internet Speed Test', layout, resizable=False, disable_minimize=True)
 
 
 def speed_test():
